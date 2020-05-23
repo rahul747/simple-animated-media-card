@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgba(95, 39, 205,0.5);
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+}
+.contact-card{
+	width:16em;
+	background-color: #FFFFFF;
+	box-shadow: 3px 3px 3px #333,-3px 3px 3px #333;
+	transform: translateY(0);
+	transition: all .5s ease-in-out;
+	
+}
+.contact-card:hover{
+	transform: translateY(-15px);
+}
+.card-bg-image{
+	width:100%;
+	height:6em;
+	background-image: url("https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+	background-size: cover;
+	background-color:#EEEEEE;
+	padding-top: 2em;
+}
+.card-avatar-img{
+	width:6em;
+	height: 6em;
+	background-image: url('https://images.unsplash.com/photo-1589279715734-6631a314dfa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+	border-radius: 100%;
+	margin: auto;
+	background-color: #EEEEEE;
+}
+.card-holder-name{
+	padding-top: 2.8em;
+	padding-bottom: 1.1em;
+	text-align: center;
+	
+}
+a{
+	text-decoration: none;
+	color: #333;
+               
+}
+li{
+	list-style: none;
+                 text-align:center;
+                 padding-bottom:15px;
+}
+.fa-mobile-alt,.fa-envelope{
+margin-right:5px;
+}
+.contact-list{
+	text-align: center;
+}
+.contact-list i{
+	margin-right: 5px;
+	padding-bottom: .8em;
+}
+footer{
+	padding-top: 1.6em;
+	background:rgba(95, 39, 205,5);
+	padding-bottom: 1em;
+	
+}
+footer ul{
+	display: flex;
+	justify-content: space-evenly;
+	
+	
+}
+footer ul li{
+	line-height: 36px;
+	
+}
+.fab{
+	cursor: pointer;
+	transition: all .5s ;
+}
+.fa-twitter:hover{
+	transform: scale(2);
+	color: blue;
+}
+.fa-linkedin-in:hover{
+	transform: scale(2);
+	color: blue;
+}
+.fa-github:hover{
+	transform: scale(2);
+	color: #555;
+}
+.fa-codepen:hover{
+	transform: scale(2);
+	color: #555;
+}
